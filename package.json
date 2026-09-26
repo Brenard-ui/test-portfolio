@@ -3,13 +3,9 @@
   "version": "1.0.0",
   "description": "Tier 1: Static website starter template",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build && next export",
-    "start": "next start"
+    "dev": "npx serve .",
+    "build": "mkdir -p out && cp index.html styles.css .nojekyll out/",
+    "start": "npx serve out"
   },
-  "dependencies": {
-    "next": "^14.0.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
-  }
+  "keywords": ["freelance", "static", "template", "html", "css"]
 }
