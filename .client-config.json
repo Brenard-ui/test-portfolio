@@ -1,0 +1,6 @@
+{
+  "client_name": "test-portfolio",
+  "tier": "Static Website",
+  "domain": "test-portfolio.com",
+  "hosting": "github-pages"
+}

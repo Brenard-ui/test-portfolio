@@ -1,0 +1,15 @@
+{
+  "name": "static-starter",
+  "version": "1.0.0",
+  "description": "Tier 1: Static website starter template",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
